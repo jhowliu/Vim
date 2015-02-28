@@ -20,3 +20,11 @@ colorscheme wombat256
 set ts=4 sw=4 et
 set smarttab
 set autoindent
+
+set mouse=a
+
+"Open cursor highlight
+:set cursorline
+:set cursorcolumn
+:hi CursorLine   cterm=NONE ctermbg=175 ctermfg=White
+:hi CursorColumn  cterm=NONE ctermbg=175 ctermfg=White
