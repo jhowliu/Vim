@@ -25,6 +25,4 @@ set mouse=a
 
 "Open cursor highlight
 :set cursorline
-:set cursorcolumn
-:hi CursorLine   cterm=NONE ctermbg=175 ctermfg=White
-:hi CursorColumn  cterm=NONE ctermbg=175 ctermfg=White
+:hi CursorLine   cterm=NONE ctermbg=7 ctermfg=59
